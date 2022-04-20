@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated excel2BPMN -->
+      <package
+            uri="http://www.example.org/excel2BPMN"
+            class="excel2BPMN.Excel2BPMNPackage"
+            genModel="model/excel2BPMN.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated UPPAAL -->
+      <package
+            uri="UPPAALModel"
+            class="UPPAALModel.UPPAALModelPackage"
+            genModel="model/UPPAAL.genmodel"/>
+   </extension>
+
+</plugin>
