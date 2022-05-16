@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_08g7qps" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="9.0.3">
+  <bpmn:process id="Process_0vgrym7" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_1oyuexf">
+      <bpmn:outgoing>Flow_15al8bj</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_06pdedj">
+      <bpmn:incoming>Flow_15al8bj</bpmn:incoming>
+      <bpmn:outgoing>Flow_0wmsqzt</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="Event_0likwev">
+      <bpmn:incoming>Flow_0wmsqzt</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0wmsqzt" sourceRef="Activity_06pdedj" targetRef="Event_0likwev" />
+    <bpmn:sequenceFlow id="Flow_15al8bj" sourceRef="StartEvent_1oyuexf" targetRef="Activity_06pdedj" />
+  </bpmn:process>
+  
+</bpmn:definitions>
