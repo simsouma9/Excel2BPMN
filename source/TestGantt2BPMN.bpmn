@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- origin at X=0.0 Y=0.0 -->
+<bpmn2:definitions xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ext="http://org.eclipse.bpmn2/ext" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1" exporter="org.eclipse.bpmn2.modeler.core" exporterVersion="1.5.3.Final-v20210519-2007-B1" targetNamespace="http://org.eclipse.bpmn2/default/process">
+  <bpmn2:process id="TestGantt2BPMN" name="Default Process" isExecutable="false">
+    <bpmn2:task id="Task_2" name="Activitie_1.1"/>
+    <bpmn2:task id="Task_3" name="Activitie_1.2"/>
+    <bpmn2:task id="Task_4" name="Activitie_1.3"/>
+    <bpmn2:task id="Task_7" name="Activitie_3.1"/>
+    <bpmn2:startEvent id="StartEvent_7" name="Start Event 7"/>
+    <bpmn2:endEvent id="EndEvent_10" name="End Event 1"/>
+    <bpmn2:task id="Task_8" name="Activitie_3.2"/>
+    <bpmn2:task id="Task_9" name="Activitie_3.3"/>
+    <bpmn2:task id="Task_10" name="Activitie_3.4"/>
+    <bpmn2:task id="Task_11" name="Activitie_3.5"/>
+    <bpmn2:task id="Task_12" name="Activitie_3.6"/>
+    <bpmn2:task id="Task_13" name="Activitie_3.7"/>
+    <bpmn2:task id="Task_14" name="Activitie_3.8"/>
+    <bpmn2:task id="Task_15" name="Activitie_3.9"/>
+    <bpmn2:parallelGateway id="ParallelGateway_1" name="Parallel Gateway 1" gatewayDirection="Diverging"/>
+    <bpmn2:task id="Task_16" name="Activitie_3.10"/>
+    <bpmn2:endEvent id="EndEvent_19" name="End Event 1"/>
+    <bpmn2:task id="Task_17" name="Activitie_3.11"/>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_1" bpmnElement="TestGantt2BPMN">
+      <bpmndi:BPMNShape id="BPMNShape_Task_1" bpmnElement="Task_2">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="1708.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_1" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="1725.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_2" bpmnElement="Task_3">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="1608.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_2" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="1625.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_3" bpmnElement="Task_4">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="1508.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_3" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="1525.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_4" bpmnElement="Task_7">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="1408.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_4" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="1425.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_StartEvent_1" bpmnElement="StartEvent_7">
+        <dc:Bounds height="36.0" width="36.0" x="50.0" y="1322.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_5" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="68.0" x="34.0" y="1358.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_EndEvent_1" bpmnElement="EndEvent_10">
+        <dc:Bounds height="36.0" width="36.0" x="50.0" y="1236.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_6" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="65.0" x="36.0" y="1272.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_5" bpmnElement="Task_8">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="1136.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_7" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="1153.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_6" bpmnElement="Task_9">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="1036.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_8" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="1053.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_7" bpmnElement="Task_10">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="936.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_9" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="953.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_8" bpmnElement="Task_11">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="836.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_10" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="853.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_9" bpmnElement="Task_12">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="736.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_11" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="753.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_10" bpmnElement="Task_13">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="636.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_12" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="653.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_11" bpmnElement="Task_14">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="536.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_13" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="553.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_12" bpmnElement="Task_15">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="436.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_14" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="64.0" x="73.0" y="453.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_ParallelGateway_1" bpmnElement="ParallelGateway_1" isMarkerVisible="true">
+        <dc:Bounds height="50.0" width="50.0" x="50.0" y="336.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_15" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="30.0" width="57.0" x="47.0" y="386.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_13" bpmnElement="Task_16">
+        <dc:Bounds height="50.0" width="110.0" x="230.0" y="218.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_16" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="71.0" x="249.0" y="235.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_EndEvent_2" bpmnElement="EndEvent_19">
+        <dc:Bounds height="36.0" width="36.0" x="50.0" y="150.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_17" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="65.0" x="36.0" y="186.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_14" bpmnElement="Task_17">
+        <dc:Bounds height="50.0" width="110.0" x="50.0" y="50.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_18" labelStyle="BPMNLabelStyle_1">
+          <dc:Bounds height="15.0" width="71.0" x="69.0" y="67.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+    <bpmndi:BPMNLabelStyle id="BPMNLabelStyle_1">
+      <dc:Font name="arial" size="9.0"/>
+    </bpmndi:BPMNLabelStyle>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>
